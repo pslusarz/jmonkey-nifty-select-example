@@ -4,7 +4,7 @@ Jmonkey Nifty Starter
 
 ![Archeology3d screenshot](/docs/jmonkey-nifty-select.png "Project screenshot")
 
-Note: When initially trying to build, you may get exception: java.lang.ClassNotFoundException: org.jglfont.spi.BitmapFontRenderer. This is due to a bug in current jmonkey, and you will need to manually add jglfont-core-1.3.jar to the project.
+Note: The project uses JMonkey 3's Netbeans based IDE. When initially trying to build, you may get exception: java.lang.ClassNotFoundException: org.jglfont.spi.BitmapFontRenderer. This is due to a bug in current jmonkey, and you will need to manually add jglfont-core-1.3.jar to the project.
 
 When working on Archeology3d I hit a long learning curve trying to get some simple things done with NiftyGUI, which is Jmonkey's recommended widget framework. So I created this project for other developers who just want to have a simple working example.
 
