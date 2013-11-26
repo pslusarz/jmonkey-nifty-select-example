@@ -11,9 +11,9 @@ When working on Archeology3d I hit a long learning curve trying to get some simp
 In this tutorial, you will see how you can change colors of a node using Nifty’s list box.
 
 There are 3 entities interacting in this demo: the app, the controller and nifty GUI.
-* HelloNiftySelectApp.java – app wires everything up, displays the box
-* HelloNiftySelectController.java – controller receives events from the GUI, and passes them on to the app
-* hello-nifty-select-gui.xml – GUI contains the selection screen layout
+* [HelloNiftySelectApp.java](/blob/master/src/org/sw7d/jme3/helloworld/HelloNiftySelectApp.java) – app wires everything up, displays the box
+* [HelloNiftySelectController.java](/blob/master/src/org/sw7d/jme3/helloworld/HelloNiftySelectController.java) – controller receives events from the GUI, and passes them on to the app
+* [hello-nifty-select-gui.xml](/blob/master/assets/Interface/hello-nifty-select-gui.xml) – GUI contains the selection screen layout
 
 # The app 
 The important parts to pay attention to in the simpleInitApp method are around the controller creation. In the constructor, we pass reference to the app to the controller, so it can notify the app when GUI events are happening. We then pass this controller to nifty, and we tell nifty to start with “select” screen. We also tell nifty to initialize GUI screen layout based on hello-nifty-select-gui.xml. When select screen is displayed, user will need a mouse pointer to interact with the selections, so we disable the flycam and display the mouse. Now take a look at the two notification methods that the controller will use. First one, colorSelected, tells the box to change colors. New color will be displayed on the screen during the next app update method. Second notification method is called when the done button is clicked. We want to hide the selection screen and return to the game. To hide the selection screen, we tell nifty to display a special empty screen called “start.” We also re-enable the flycam and hide mouse pointer. 
