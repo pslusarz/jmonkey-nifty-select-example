@@ -36,8 +36,8 @@ As you see, even a simple GUI interaction is a fairly complex matter to wire up.
 
 References:
 
-Nifty controls page: http://sourceforge.net/apps/mediawiki/nifty-gui/index.php?title=Standard_Controls_ListBox 
-Nifty API: http://nifty-gui.sourceforge.net/projects/nifty/apidocs/index.html 
-Nifty controls API: http://nifty-gui.sourceforge.net/projects/1.3/nifty-default-controls/apidocs/index.html?de/lessvoid/nifty/controls/ListBox.html
-JMonkey Overlay Tutorial: http://hub.jmonkeyengine.org/wiki/doku.php/jme3:advanced:nifty_gui_overlay
+* Nifty controls page: http://sourceforge.net/apps/mediawiki/nifty-gui/index.php?title=Standard_Controls_ListBox 
+* Nifty API: http://nifty-gui.sourceforge.net/projects/nifty/apidocs/index.html 
+* Nifty controls API: http://nifty-gui.sourceforge.net/projects/1.3/nifty-default-controls/apidocs/index.html?de/lessvoid/nifty/controls/ListBox.html
+* JMonkey Overlay Tutorial: http://hub.jmonkeyengine.org/wiki/doku.php/jme3:advanced:nifty_gui_overlay
 
